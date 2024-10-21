@@ -17,7 +17,6 @@ async function fetchWeatherData(city) {
     }
 }
 
-
 const cityElement = document.querySelector(".city");
 const temperature = document.querySelector(".temp");
 const windSpeed = document.querySelector(".wind-speed");
