@@ -27,8 +27,6 @@ const descriptionText = document.querySelector(".description-text");
 const date = document.querySelector(".date");
 const descriptionIcon = document.querySelector(".description i");
 
-// fetchWeatherData();
-
 function updateWeatherUI(data) {
     cityElement.textContent = data.name;
     temperature.textContent = `${Math.round(data.main.temp)}` + '°C';
